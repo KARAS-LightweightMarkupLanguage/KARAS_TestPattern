@@ -1,0 +1,201 @@
+﻿=======================================================================
+= Basic pattern
+
+{{div
+Div group.
+}}
+
+{{div::sample
+Group with class.
+}}
+
+{{undefined
+Undefined div group.
+}}
+
+{{header
+Header group.
+}}
+
+{{header::sample
+Header group with class.
+}}
+
+{{footer
+Footer group.
+}}
+
+{{article
+Article group.
+}}
+
+{{aside
+Aside group.
+}}
+
+{{address
+Address group.
+}}
+
+{{section
+Section group.
+}}
+
+{{details
+Details group.
+}}
+
+{{details
+= Summary.
+== Summary with ID. :: ID
+
+Details group.
+}}
+
+{{figure
+Figure group.
+}}
+
+{{figure
+= Figure caption.
+== Figure caption with ID. :: ID
+
+Figure group.
+}}
+
+=======================================================================
+= Details
+
+{{details
+= Summary
+|| table
+
+= Summary
+|> table
+
+= Summary
+|< table
+
+= Summary
+|= table
+
+= Summary
+!| table
+
+= Summary
+!> table
+
+= Summary
+!< table
+
+= Summary
+!= table
+
+= Summary
+- list
+
+= Summary
++ list
+
+= Summary
+; List
+
+= Summary
+> quote
+
+= Summary
+== 2nd Summary
+
+Paragraph.
+
+}}
+
+=======================================================================
+= Figure
+
+{{figure
+= Figcaption
+|| table
+
+= Figcaption
+|> table
+
+= Figcaption
+|< table
+
+= Figcaption
+|= table
+
+= Figcaption
+!| table
+
+= Figcaption
+!> table
+
+= Figcaption
+!< table
+
+= Figcaption
+!= table
+
+= Figcaption
+- list
+
+= Figcaption
++ list
+
+= Figcaption
+; List
+
+= Figcaption
+> quote
+
+= Figcaption
+== 2nd Figcaption
+
+Paragraph.
+
+}}
+
+=======================================================================
+= Pre/Code/Kbd/Samp
+
+{{pre
+Pre group
+
+with blank line.
+}}
+
+{{pre
+Pre group.
+<p> Tag in code group. </p>
+}}
+
+{{code::sample
+Code group.
+<p> Tag in code group. </p>
+}}
+
+{{code
+{{Group in pre/code group.
+}}
+}}
+
+{{kbd::sample
+Kbd group.
+<p> Tag in kbd group.</p>
+}}
+
+{{kbd
+{{Group in pre/kbd group.
+}}
+}}
+
+{{samp::sample
+Samp group.
+}}
+
+{{samp
+<p> Tag in samp group. </p>
+{{//unclosed group open.
+}}

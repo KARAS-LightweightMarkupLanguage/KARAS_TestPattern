@@ -1,0 +1,13 @@
+﻿; Simple pattern.
+;; '''KANJI :: ruby'''
+; More detailed.
+;; '''KAN :: ru :: JI :: by'''
+; Complicated pattern.
+;; '''HI :: r:: RA :: u :: GA :: b :: NA :: y'''
+; Wrong pattern - 1.
+;; '''KANJI'''
+; Wrong pattern - 2.
+;; '''KAN::Ru::JI'''
+
+= '''Heading::with Ruby''' :: ID
+== ((index.html::'''Link Heading :: with Ruby''')) :: ID

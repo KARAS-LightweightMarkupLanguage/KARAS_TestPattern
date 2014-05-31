@@ -1,0 +1,11 @@
+﻿First line.~
+Second line.
+
+First line.~~
+Second line.
+
+First line.\~
+Second line(without line break).
+
+First line.\\~
+Second line.

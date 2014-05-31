@@ -1,0 +1,65 @@
+﻿=======================================================================
+= Basic
+
+**Bold text**~
+** Bold text ** with whitespace~
+***Strong text***
+
+//Italic text//~
+// Italic text // with whitespace~
+///Emphasized text///
+
+__Underline text__~
+__ Underline text __ with whitespace~
+___Inserted text___
+
+%%Striked text%%~
+%% Striked text %% with whitespace~
+%%%Deleted text%%%
+
+''Superscript text''~
+'' Superscript text '' with whitespace~
+'''KANJI::Ruby'''~
+''' KANJI :: Ruby ''' with whitespace
+
+,,Subscript text,,~
+,, Subscript text ,, with whitespace
+
+??Definition text??~
+?? Definition text ?? with whitespace~
+???Abbreviated definition text???
+
+$$<Keyboard text>$$~
+$$ <Keyboardd text> $$ with whitespace~
+$$$<Sample text>$$$
+
+``<Variable text>``~
+`` <variable text> `` with whitespace~
+```<Code text>```
+
+@@Cite text@@~
+@@ Cite text @@ with whitespace~
+@@@Small text@@@
+
+""Quoted text""
+"" Quoted text "" with whitespace
+
+=======================================================================
+= Rest marks
+
+*** Bold text **~
+** Bold text ***
+
+=======================================================================
+= Combination
+
+** // Bold and italic text // **~
+**//Bold and italic text//**~
+** //Bold and italic text// **~
+**// Bold and italic text //**
+
+=======================================================================
+= Bad Combination
+
+**// Bold and italic text **//~
+*** **Strong and bold text** ***

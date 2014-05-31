@@ -1,0 +1,89 @@
+﻿> Blockquote text.
+> 2nd line.
+
+> Blockquote text
+with line break.
+
+> Blockquote text
+with line break.
+>> Level 2 blockquote text.
+
+> Blockquote text.
+> 2nd line.
+>> Level 2 blockquote text.
+>> 2nd line.
+
+> Blockquote text.
+>>> Level skip.
+>> Level 2 blockquote text.
+
+> Blockquote text.
+>>>> Level skip.
+> Level 1 blockquote text.
+
+> Blockquote text.
+> Blockquote with **inline markup**.
+
+> Blockquote text
+>
+> with blank line.
+
+> = Heading in blockquote
+> == Level 2 heading.
+>
+> Paragraph text.
+
+> - List in blockquote
+> -- Level 2 heading.
+> ++ List in blockquote
+> 
+> - 2nd list in blockquote
+
+> >Blockquote in Blockquote
+>
+> Paragraph text.
+
+> 
+
+> {{code::sample
+> Group in
+>
+> Blcokquote
+> }}
+> Blockquote
+
+> Blockquote
+|> Table
+
+> Blockquote
+|< Table
+
+> Blockquote
+|= Table
+
+> Blockquote
+!| Table
+
+> Blockquote
+!> Table
+
+> Blockquote
+!< Table
+
+> Blockquote
+!= Table
+
+> Blockquote
+- List
+
+> Blockquote
++ List
+
+> Blockquote
+; Deflist
+
+> Blockquote
+= Heading
+
+Paragraph
+> Blockquote

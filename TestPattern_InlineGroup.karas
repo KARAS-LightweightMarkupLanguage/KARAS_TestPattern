@@ -1,0 +1,20 @@
+﻿Simple <<group>> text.
+
+Sample <<sampleclass :: group>> in text.
+
+Sample <<sampleid :: group>> in text.
+
+<<sampleclass::Inline group>>~
+<<<sampleid::Inline group>>>
+
+<<sampleclass::class group <<sampleclass::class group in class group>>>>~
+<<<sampleid::id group <<sampleclass::class group in id group>>>>>~
+
+<<<<sampleclass::class group in group>> sample text>>~
+<<<<<sampleid::id group in group>>> sample text>>
+
+<<<<<sampleid :: id group>>>>>~
+<<<<<sampleid :: id group>>>>>>~
+<<<<<<sampleid :: id group>>>>>~
+<<<<<sampleid :: id group>>>>>>>~
+<<<<<<<sampleid :: id group>>>>>

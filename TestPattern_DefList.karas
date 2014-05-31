@@ -1,0 +1,65 @@
+﻿; This is Def list sample.
+;; Description about level 1 item.
+
+; This is Def list sample.
+;; You can write description as many as you want.
+;; This is 2nd description.
+
+; Continuous list will become a one list.
+;; Description.
+; 2nd item.
+;; Description.
+
+; You should not write level 1 item after level 1 item.
+; This is not good.
+;; Description.
+
+; You can write linebreak in your list.
+This line is included level 1 item.
+;; Description
+
+; You can write linebreak syntax in your list. ~
+This line is 2nd line of level 1 item.
+;; Description
+
+; Deflist
+;;; with rest mark.
+
+; Deflist
+|| Table
+
+; Deflist
+|> Table
+
+; Deflist
+|< Table
+
+; Deflist
+|= Table
+
+; Deflist
+!| Table
+
+; Deflist
+!> Table
+
+; Deflist
+!< Table
+
+; Deflist
+!= Table
+
+; Deflist
+- List
+
+; Deflist
++ List
+
+; Deflist
+> Blockquote
+
+; Deflist
+= Heading
+
+Paragraph
+;Deflist

@@ -1,0 +1,59 @@
+﻿= Heading
+
+= Heading with ID :: ID
+
+= Heading
+with linebreak.
+
+= Heading
+with linebreak and ID :: ID
+
+= Heading level 1
+== Heading level 2
+=== Heading level 3
+==== Heading level 4
+===== Heading level 5
+====== Heading level 6
+======= Horizon (level7)
+
+=======
+= Heading after horizon
+
+= Heading
+|| Table
+
+= Heading
+|> Table
+
+= Heading
+|< Table
+
+= Heading
+|= Table
+
+= Heading
+!| Table
+
+= Heading
+!> Table
+
+= Heading
+!< Table
+
+= Heading
+!= Table
+
+= Heading
+- List
+
+= Heading
++ List
+
+= Heading
+; Deflist
+
+= Heading
+> Blockquote
+
+Paragraph
+= Heading

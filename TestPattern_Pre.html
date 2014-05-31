@@ -1,0 +1,190 @@
+﻿<hr>
+<h1>Basic</h1>
+<pre>
+  Sample text in pre-element
+
+  with blank line.
+</pre>
+<pre>  Sample text in pre-group
+
+  with blank line.</pre>
+<pre>&lt;pre&gt;
+= Pre-element in pre-group.
+&lt;/pre&gt;</pre>
+<pre>
+{{code
+= Code-group in pre-element.
+}}
+</pre>
+<pre>Pre group.
+&lt;p&gt; Tag in pre-group. &lt;/p&gt;</pre>
+<pre><code>Code group.
+&lt;p&gt; Tag in code-group. &lt;/p&gt;</code></pre>
+<pre><code>{{Group in pre/code-group.
+}}</code></pre>
+<pre class="name"><kbd class="name">$echo Unyalder
+
+$echo Unyalder</kbd></pre>
+<pre><samp>Samp-group.</samp></pre>
+<dl>
+<dt>Default escape code</dt>
+<dd>"escpcode"</dd>
+</dl>
+<pre>
+Escape syntax \\ in pre-element.
+</pre>
+<pre>Escape syntax \\ in pre-group.</pre>
+<blockquote>
+<p>Blockquote in convert plugin.</p>
+</blockquote>
+<pre>Pre-group in convert plugin.</pre>
+<blockquote>
+<p>Blockquote in action plugin.</p>
+</blockquote>
+<pre>Pre-group in action plugin.</pre>
+<p>[[debug::</p>
+<blockquote>
+<p>Escaped plugin syntax.
+]]</p>
+</blockquote>
+<hr>
+<h1>Complicated pattern - Group syntax</h1>
+<pre>##Comment out in pre-group.##</pre>
+<pre><samp>[[debug::Plugin in pre/samp-group.]]</samp></pre>
+<pre>{{code
+
+Group in pre-group.
+
+}}</pre>
+<pre>
+**Bold text with blank line in pre-group.**
+</pre>
+<pre>== Block markup text.
+
+== Block markup with blank line.
+</pre>
+<hr>
+<h1>Complicated pattern - HTML element</h1>
+<pre>
+##Comment out in pre-element.##
+</pre>
+<pre>
+<samp>
+[[debug::Plugin in pre/samp-element.]]
+</samp>
+</pre>
+<pre>
+{{code
+
+Code group in pre-element.
+
+}}
+</pre>
+<pre>
+
+**Bold text with blank line in pre-element.**
+
+</pre>
+<pre>
+== Block markup text.
+
+== Block markup with blank line.
+
+</pre>
+<hr>
+<h1>Complicated pattern - Group syntax with Blockquote</h1>
+<blockquote>
+<pre>Pre-group in blockquote.</pre>
+</blockquote>
+<blockquote>
+<pre>
+Pre-element with blank line in blockquote
+</pre>
+</blockquote>
+<blockquote>
+<pre><samp>= Heading in samp in blockquote.</samp></pre>
+</blockquote>
+<pre>&gt; Blockquote syntax in pre-element in blockquote.</pre>
+<blockquote>
+<pre>&gt; Blockquote syntax in pre-group in blockquote.</pre>
+</blockquote>
+<blockquote>
+<pre><kbd>[[debug::Plugin in kbd group.]]
+Kbd group and the plugin in blockquote.</kbd></pre>
+</blockquote>
+<blockquote>
+<pre><code>
+## Escape text ##
+</code></pre>
+</blockquote>
+<pre>&lt;pre&gt;
+&gt; Pre-element in pre-group with blockquote.
+&lt;/pre&gt;</pre>
+<hr>
+<h1>Complicated pattern - HTML element with Blockquote</h1>
+<blockquote>
+<pre>
+>Pre-element in blockquote.
+></pre>
+</blockquote>
+<blockquote>
+<pre>
+> 
+> Pre-element with blank line in blockquote
+>
+></pre>
+</blockquote>
+<blockquote>
+<pre>
+><samp>
+>= Heading in samp in blockquote.
+></samp>
+></pre>
+</blockquote>
+<pre>
+> Blockquote syntax in pre-element in blockquote.
+</pre>
+<blockquote>
+<pre>
+> > Blockquote syntax in pre-element in blockquote.
+> </pre>
+</blockquote>
+<blockquote>
+<pre>
+><kbd>
+>[[debug::Plugin in kbd group.]]
+>Kbd group and the plugin in blockquote.
+</kbd>
+></pre>
+</blockquote>
+<blockquote>
+<pre>
+><code>
+>
+>## Escape text ##
+>
+></code>
+></pre>
+</blockquote>
+<pre>
+{{pre
+> Pre-group in pre-element with blockquote.
+}}
+</pre>
+<hr>
+<h1>Complicated pattern - with linebreak</h1>
+<blockquote>
+<pre>
+
+Pre text.
+
+</pre>
+</blockquote>
+<blockquote>
+<p>Blockquote
+<pre>
+
+Wrong pattern pre text.
+
+</pre></p>
+</blockquote>

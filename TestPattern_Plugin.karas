@@ -1,0 +1,40 @@
+﻿=======================================================================
+= Plugin syntax test :: title
+
+[[mark:: This text is marked.]] KARAS doesn't have syntax to write a mark element.
+[[mark :: red :: This text is marked with red.]]
+
+=======================================================================
+= Now editing plugin :: nowediting
+
+[[NowEditing::This text will be removed.]]
+
+[[[NowEditing]]]
+
+[[mark::blue::[[nowediting::::plugin syntax in plugin syntax test.]]]]
+
+=======================================================================
+= Table of Contents plugin :: tocplugin
+
+[[[toc]]]
+
+[[Toc]]
+
+=======================================================================
+= Dummy headings for toc test :: dummyheading
+
+=== Level 3 heading
+==== Level 4 heading :: level4
+===== Level 5 heading :: level5
+====== Level 6 heading
+== level 2 heading :: level2
+= level 1 heading :: leve1
+
+=======================================================================
+= Rest mark test
+
+[[nowediting::This markup has rest mark.]]]
+[[[nowediting::This markup has rest mark. ]]
+[[[[nowediting]]]]
+[[[[NowEditing]]]]]
+[[[[[NowEditing]]]]

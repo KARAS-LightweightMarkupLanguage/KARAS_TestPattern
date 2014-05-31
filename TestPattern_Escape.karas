@@ -1,0 +1,25 @@
+﻿\= Escaped heading syntax.
+
+\\- Paragraph text with escape mark.
+
+|| \||Cell with Escape || Cell2
+
+\*** Bold text.**~
+\\*** Strong text.***
+
+Escaped line break\~
+and 2nd line.
+
+\### Escape comment-out syntax character. ##
+### Escape comment-out syntax character. ##\#
+
+'''KANJI\:::ruby'''~
+<<sample\:::Inline gorup>>
+
+{{pre
+None escaped \ mark.
+}}
+
+<pre>
+None escaped \ mark.
+</pre>

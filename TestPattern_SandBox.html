@@ -1,0 +1,168 @@
+<h1>Sand Box</h1>
+<hr>
+<h2 id="idoption">Inline markups</h2>
+<p><b>bold</b> & <strong>strong</strong></p>
+<p><i>italic</i> & <em>emphasize</em></p>
+<p><s>strike</s> & <del>delete</del></p>
+<p><u>underline</u> & _<ins>insert</ins></p>
+<p><sup>super</sup> & <ruby>RU<rp> (</rp><rt>ru</rt><rp>) </rp>BY<rp> (</rp><rt>by</rt><rp>) </rp></ruby></p>
+<p><sub>sub</sub></p>
+<p><var>var</var> & <code>code</code></p>
+<p><kbd>kbd</kbd> & <samp>samp</samp></p>
+<p><q>quote</q></p>
+<p><cite>cite</cite> & <small>small</small></p>
+<p><dfn>dfn</dfn> & <dfn><abbr>dfn-abbr</abbr></dfn></p>
+<hr>
+<h2 id="link">Link</h2>
+<p><a href="Link">Link</a> is quite simple. 
+You can use alias text like <a href="URL">this</a>.</p>
+<hr>
+<h2 id="media">Media</h2>
+<p>Media syntax filters the extension, and outputs HTML5 relevant-tag (with object/embed tags).
+Nothing is appears when file or plugins is not found.</p>
+<video src="test.mp4"><object data="test.mp4"><embed src="test.mp4"></object></video>
+<audio src="test.mp3" controls><object data="test.mp3"><param name="controls" value="true"><embed src="test.mp3" controls="true"></object></audio>
+<img src="test.jpg" width=100 height= 80>
+<hr>
+<h2 id="group">Group</h2>
+<h3>Block group</h3>
+<p>You can grouping some contents and named it.
+Basically, it becomes <i>div</i> and the class name.</p>
+<div class="groupname">
+<p>Following contents are grouped.</p>
+<ul>
+<li>list</li>
+</ul>
+<ol>
+<li>list</li>
+</ol>
+<img src="test.jpg" width=100 height=100>
+</div>
+<p>You can use some special group. section is one of it.</p>
+<section>
+<p>This grouped contents becomes section contents.</p>
+</section>
+<p>Especialy <i>pre</i>, <i>kbd</i>, <i>samp</i>, <i>code</i> group's contents become a preformatted text, <br>
+and syntaxs are not converted.</p>
+<pre><kbd>$ console-like kbd area with css.
+$ echo Unyalder!
+Unyalder!</kbd></pre>
+<p>If you want to name special class, like this.</p>
+<pre class="javascript"><code class="javascript">int index = 0;
+&lt;html&gt;code&lt;/html&gt;
+**bold**</code></pre>
+<p>Heading syntax in <i>figure</i> special group becomes <i>figcaption</i>.</p>
+<figure>
+<img src="figure.jpg">
+<figcaption>figcaption.</figcaption>
+</figure>
+<figure>
+<figcaption>Blockgroup in Blockgroup sample.c</figcaption>
+<pre><code>#include &lt;stdio.h&gt;
+int main()
+{
+    print(&#34;Unyalder!&#34;);
+    return 0;
+}</code></pre>
+</figure>
+<h3>Inline group</h3>
+<p>This is <span class="classname">inline group</span> level 1, output as <i>span=class</i>.
+This is <span id="idname">inline group</span> level 1, output as <i>span=id</i>.</p>
+<p>Inline group hasnt special name like <i>Block group</i>.</p>
+<hr>
+<h2 id="table">Table</h2>
+<table>
+<tr><th>Header</th><th>Header</th><th style="text-align:left">Left</th></tr>
+<tr><td>Default</td><td style="text-align:center">Center</td><td style="text-align:right">Right</td></tr>
+<tr><td colspan = "2">Rowspan</td><td rowspan = "2">Colspan</td></tr>
+<tr><td>Cell</td><td>Cell</td></tr>
+</table>
+<figure>
+<figcaption>Tablecaption</figcaption>
+<table>
+<tr><th></th><th>Header</th><th>Header</th></tr>
+<tr><td>Value-A</td><td style="text-align:right">0</td><td style="text-align:right">0</td></tr>
+<tr><td>Value-B</td><td style="text-align:right">0</td><td style="text-align:right">0</td></tr>
+</table>
+</figure>
+<hr>
+<h2 id="list">List</h2>
+<ol>
+<li>Ordered list.</li>
+<li>2nd ordered list.
+<ol>
+<li>Nested ordered list</li>
+<li value="5">Ordered list with option</li>
+<li>This list number becomes the next of previous option.</li>
+</ol>
+</li>
+</ol>
+<ul>
+<li>Unodererd list
+<ol>
+<li>Ordered list combination</li>
+<li>Ordered list 2</li>
+</ol>
+</li>
+</ul>
+<dl>
+<dt>Definition list - Term</dt>
+<dd>Definition list - description 1</dd>
+<dd>Definition list - description 1</dd>
+</dl>
+<hr>
+<h2 id="blockquote">Blockquote</h2>
+<blockquote>
+<p>Blockquote text
+You can use <i>KARAS sytanx</i> in blockquote.</p>
+<blockquote>
+<p>Nested blockquote.</p>
+</blockquote>
+<ul>
+<li>list in blockquote level 1.</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="others">Others</h2>
+<p>If you want to get all of syntax or more details, visit <a href="http://www.lightweightmarkuplanguage.com">http://www.lightweightmarkuplanguage.com</a></p>
+<h3 id="commentout">Comment out</h3>
+<p>Comment out text is HERE! -></p>
+<h3>Escape</h3>
+<p>If you want to disable to syntax, use <i>Backslash(\)</i> mark. **This is escape sample**.</p>
+<h3>Line break</h3>
+<p>Line break is like<br>
+this.</p>
+<h3>HTML tag</h3>
+<p>You can use HTML element in KARAS document <b>like this</b>.</p>
+<hr>
+<h2 id="plugin">Plugin</h2>
+<p>You can use and develop plugin. <i>Table Of Contents(TOC)</i> is one of action-type plugin sample.</p>
+<ul>
+<li>Sand Box
+<ul>
+<li><a href="#idoption">Inline markups</a></li>
+<li><a href="#link">Link</a></li>
+<li><a href="#media">Media</a></li>
+<li><a href="#group">Group</a>
+<ul>
+<li>Block group</li>
+<li>Inline group</li>
+</ul>
+<li><a href="#table">Table</a></li>
+<li><a href="#list">List</a></li>
+<li><a href="#blockquote">Blockquote</a></li>
+<li><a href="#others">Others</a>
+<ul>
+<li><a href="#commentout">Comment out</a></li>
+<li>Escape</li>
+<li>Line break</li>
+<li>HTML tag</li>
+</ul>
+<li><a href="#plugin">Plugin</a></li>
+</ul>
+</li>
+</ul>
+<p>If you want to use markedup text in plugin, use convert-type.</p>
+<mark>markedup text</mark>
+<p>You can use option parameter like this.</p>
+<mark style="background-color:red;">markedup text</mark>

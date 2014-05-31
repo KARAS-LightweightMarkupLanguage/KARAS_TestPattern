@@ -1,0 +1,118 @@
+﻿=======================================================================
+= Basic
+
+((DefaultURL))
+((DefaultURL::Alias text))
+
+((DefaultURL))((DefaultURL::Alias text))
+
+((DefaultURL.jpg))
+((DefaultURL.jpg::Alias text))
+
+((DefaultURL.jpg))((DefaultURL.jpg::Alias text))
+
+(((ImageURL.jpg)))
+(((ImageURL.jpg :: width="100" height="100")))
+
+(((ImageURL.jpg)))(((ImageURL.jpg :: width="100" height="100")))
+
+(((VideoURL.mp4)))
+(((VideoURL.mp4 :: width="100" height="100" loop controls)))
+
+(((VideoURL.mp4)))(((VideoURL.mp4 :: width="100" height="100" loop controls)))
+
+(((AudioURL.mp3)))
+(((AudioURL.mp3::loop)))
+
+(((AudioURL.mp3)))(((AudioURL.mp3::loop)))
+
+(((UndefinedURL.swf)))
+(((UndefinedURL.swf :: width="100" height="100" allowfullscreen)))
+
+(((UndefinedURL.swf)))(((UndefinedURL.swf :: width="100" height="100" allowfullscreen)))
+
+(((ImageURL.jpg)))(((VideoURL.mp4)))
+
+(((ComplicatedURL\)))Pattern)))
+
+(((ComplecatedURL.jpg\)))(((VideoURL.mp4)))
+
+((DefaultURL)) This text become a paragraph.
+
+(((ImageURL.jpg))) This text become a paragraph.
+
+This text become a paragraph. ((DefaultURL))
+
+((DefaultURL)) This text become a paragraph. (((ImageURL.jpg)))
+
+(((EscapedAnchorSyntax\)))
+This text become a paragraph.
+
+=======================================================================
+= Complecated option pattern
+
+(((VideoURL.mp4 :: controls width="100" height="100" loop)))
+(((VideoURL.mp4 :: controls string="value with whitespace" loop height="100")))
+(((VideoURL.mp4 :: controls width = "100" height = "100" loop)))
+(((VideoURL.mp4 :: controls string = "value with whitespace" loop height = "100")))
+
+=======================================================================
+= Nest pattern
+
+(((((MediaURL)))))
+(((((ImageURL.jpg)))))
+(((((VideoURL.mp4)))))
+(((((AudioURL.mp3)))))
+
+(( ((( MediaURL ))) ))
+(( ((( ImageURL.jpg ))) ))
+(( ((( VideoURL.mp4 ))) ))
+(( ((( AudioURL.mp3 ))) ))
+
+((((((MediaURL))))))
+((((((ImageURL.jpg))))))
+((((((VideoURL.mp4))))))
+((((((AudioURL.mp3))))))
+
+(((((MediaURL::option)))))
+(((((ImageURL.jpg::width="100")))))
+(((((VideoURL.mp4::controls)))))
+(((((AudioURL.mp3::loop)))))
+
+((URL::(((MediaURL)))))
+((URL::(((ImageURL.jpg)))))
+((URL::(((VideoURL.mp4)))))
+((URL::(((AudioURL.mp3)))))
+
+((URL :: Sample text (((MediaURL :: option)))))
+((URL :: Sample text (((ImageURL.jpg :: width="100")))))
+((URL :: Sample text (((VideoURL.mp4 :: controls)))))
+((URL :: Sample text (((AudioURL.mp3 :: loop)))))
+
+=======================================================================
+= Bad nest pattern
+
+((((((MediaURL)))))))
+((((((ImageURL.jpg)))))))
+((((((VideoURL.mp4)))))))
+((((((AudioURL.mp3)))))))
+
+((( MediaURL :: ((URL)) )))
+((( ImageURL.jpg :: ((URL)) )))
+((( VideoURL.mp4 :: ((URL)) )))
+((( AudioURL.mp3 :: ((URL)) )))
+
+(((MediaURL :: ((URL)))))
+(((ImageURL.jpg :: ((URL)))))
+(((VideoURL.mp4 :: ((URL)))))
+(((AudioURL.mp3 :: ((URL)))))
+
+(((MediaURL :: (((MediaURL))))))
+(((ImageURL.jpg :: (((ImageURL.jpg))))))
+(((VideoURL.mp4 :: (((VideoURL.mp4))))))
+(((AudioURL.mp3 :: (((AudioURL.mp3))))))
+
+((( MediaURL :: (((MediaURL))) )))
+((( ImageURL.jpg :: (((ImageURL.jpg))) )))
+((( VideoURL.mp4 :: (((VideoURL.mp4))) )))
+((( AudioURL.mp3 :: (((AudioURL.mp3))) )))

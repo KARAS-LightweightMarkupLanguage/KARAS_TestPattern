@@ -1,0 +1,89 @@
+﻿- Unordered list.
+- List item.
+-- List item.
+--- List item.
+---- List item.
+-- List item.
+
+- Unordered list.
+-- List item with **inline markup**.
+
+- Unordered list.
+----- Level skip.
+- List item.
+
+- Unordered list
+with line break.
+
+- Unordered list~
+with line break syntax.
+
++ Ordered list.
+++ List item.
++++ List item.
++ List item.
+
+- Unordered list
++ and ordered list
+
+- Unordered list
+++ Level 2 ordered list.
+-- Level 2 unordered list.
+
+- List type is defined by last mark.
+-+ Ordered list.
++- Unordered list.
+
+- Complecated pattern.
+++ List item.
+--- List item.
++++ List item.
++++ List item.
+-- List item.
+- List item.
+
+- Unordered list with option :: 2
+-- Unordered list has no option.
+
++ Ordered list with option :: 3
++ List item.
+-- List item.
+++ List item.
++++ List item :: 5
++ List item.
+
+- List
+|| Table
+
+- List
+|> Table
+
+- List
+|< Table
+
+- List
+|= Table
+
+- List
+!| Table
+
+- List
+!> Table
+
+- List
+!< Table
+
+- List
+!= Table
+
+- List
+; DefList
+
+- List
+> Blockquote
+
+- List
+= Heading
+
+Paragraph
+- List

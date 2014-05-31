@@ -1,0 +1,35 @@
+﻿=======================================================================
+= Inline markups
+
+; Ruby in Inline group
+;; <<class::'''Inline group::Ruby'''>>
+
+; Inline group in Ruby
+;; '''Ruby::<<class::Inline group>>'''
+
+; Ruby in Anchor
+;; ((URL::'''Anchor::Ruby'''))
+
+; Anchor in Ruby
+;; '''Ruby::((URL::Anchor))'''
+
+; Complecated pattern.
+;; '''Ruby::((URL::Anchor))::Ruby2::<<class::Inline group>>'''
+
+=======================================================================
+= With Heading and List option.
+
+= <<class::'''Inline group::Ruby'''>> :: ID
++ <<class::'''Inline group::Ruby'''>> :: 3
+
+= '''Ruby::<<class::Inline group>>''' :: ID
++ '''Ruby::<<class::Inline group>>''' :: 3
+
+= ((URL::'''Anchor::Ruby''')) :: ID
++ ((URL::'''Anchor::Ruby''')) :: 3
+
+= '''Ruby::((URL::Anchor))''' :: ID
++ '''Ruby::((URL::Anchor))''' :: 3
+
+= '''Ruby::((URL::Anchor))::Ruby2::<<class::Inline group>>''' :: ID
++ '''Ruby::((URL::Anchor))::Ruby2::<<class::Inline group>>''' :: 3
