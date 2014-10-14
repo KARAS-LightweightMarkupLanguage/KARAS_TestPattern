@@ -1,20 +1,25 @@
-﻿Simple <<group>> text.
+﻿Simple <<class::class group>> text.
+Simple <<<id::id group>>> text.
 
-Sample <<sampleclass :: group>> in text.
+span <<::group>> text.
+span <<<::group>>> text.
 
-Sample <<sampleid :: group>> in text.
+<<class only>>
+<<id only>>
+<<class only::>>
+<<<id only::>>>
 
-<<sampleclass::Inline group>>~
-<<<sampleid::Inline group>>>
+<<class::Inline group>>~
+<<<id::Inline group>>>
 
-<<sampleclass::class group <<sampleclass::class group in class group>>>>~
-<<<sampleid::id group <<sampleclass::class group in id group>>>>>~
+<<class::class group <<class::class group in class group>>>>~
+<<<id::id group <<class::class group in id group>>>>>~
 
-<<<<sampleclass::class group in group>> sample text>>~
-<<<<<sampleid::id group in group>>> sample text>>
+<<::<<class::class group in group>> sample text>>~
+<<::<<<id::id group in group>>> sample text>>
 
-<<<<<sampleid :: id group>>>>>~
-<<<<<sampleid :: id group>>>>>>~
-<<<<<<sampleid :: id group>>>>>~
-<<<<<sampleid :: id group>>>>>>>~
-<<<<<<<sampleid :: id group>>>>>
+<<<<<id :: id group>>>>>~
+<<<<<id :: id group>>>>>>~
+<<<<<<id :: id group>>>>>~
+<<<<<id :: id group>>>>>>>~
+<<<<<<<id :: id group>>>>>
